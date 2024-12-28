@@ -1,0 +1,57 @@
+.about{ 
+    width: 100%;
+    min-width: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.bio {
+    display: flex;
+    align-items: center;
+    gap: 48px;
+    margin-bottom: 32px;
+    margin-top: 50px;
+    
+
+
+    & img {
+        border-radius: 50%;
+        width: 230px;
+    }
+
+    & span {
+        color: var(--red);
+        font-weight: bold;
+        
+    }
+
+    & strong {
+        font-size: 20px;
+        color: var(--secondary);
+
+    }
+
+    & h2, p {
+        margin-bottom: 24px;
+    }
+}
+
+.techs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    width: 100%;
+
+}
+
+.logotech {
+    display: flex;
+    width: 60%;
+    font-size: 60px;
+    color: var(--primary);
+    justify-content: space-evenly;
+}
