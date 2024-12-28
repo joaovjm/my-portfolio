@@ -13,7 +13,7 @@ const Home = () => {
                     </p>
                     <button className={styles.btn}>Saiba mais sobre mim</button>
                 </div>
-                <img src="/public/image-home.svg" alt="Image de Home" />
+                <img src="./image-home.svg" alt="Image de Home" />
             </section>
         </>
     )
