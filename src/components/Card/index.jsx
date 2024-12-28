@@ -1,7 +1,6 @@
 import { BsArrowRightSquareFill } from 'react-icons/bs'
 import styles from './Card.module.css'
 import { IoLogoCss3, IoLogoHtml5, IoLogoJavascript, IoLogoReact, IoLogoNodejs } from "react-icons/io5"
-import { Link } from 'react-router-dom'
 
 const Card = ({name, description, html_url}) => {
     return (
@@ -15,9 +14,9 @@ const Card = ({name, description, html_url}) => {
                     <IoLogoJavascript />
                     <IoLogoReact />
                 </div>
-                <Link to= {html_url} className={styles.button}>
+                <a href={html_url} target='_blank' rel='nopenner norefferer' className={styles.button}>
                     <BsArrowRightSquareFill/>
-                </Link>
+                </a>
 
             </div>
         </section>
